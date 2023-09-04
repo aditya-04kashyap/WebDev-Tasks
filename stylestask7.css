@@ -1,0 +1,64 @@
+
+            body {
+                font-family: Arial, sans-serif;
+            }
+            h2{
+                display: flex;
+                justify-content: center; 
+                align-items: center; 
+                color: aliceblue;
+                text-align: center;
+            }
+            .home
+            {
+                background-color: rgb(127, 0, 59);
+            }
+            .form-container {
+                max-width: 600px;
+                margin: 0 auto;
+                padding: 20px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                background-color: rgb(235, 24, 123);
+            }
+            .options
+            {
+                color:aliceblue
+            }
+            .form-label {
+                font-weight: bold;
+                color:aliceblue;
+            }
+
+            .form-input {
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+            }
+
+            .form-select {
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+            }
+
+            .form-checkbox {
+                margin-bottom: 10px;
+                color: aliceblue;
+            }
+
+            .save-button {
+                background-color:grey;
+                color: white;
+                border: none;
+                padding: 10px;
+                border-radius: 5px;
+                cursor: pointer;
+                display: block;
+                margin: 0 auto;
+            }
+        

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Task 5</title>
+    <link rel="stylesheet" type="text/css" href="stylestask7.css">
+</head>
+
+<body>
+    <div class="home">
+    <div class="form-container">
+        <h2>Registration Form</h2>
+        <form action="/submit" method="post">
+            <label class="form-label" for="first_name">First Name:</label>
+            <input class="form-input" type="text" id="first_name" name="first_name" required>
+
+            <label class="form-label" for="last_name">Last Name:</label>
+            <input class="form-input" type="text" id="last_name" name="last_name" required>
+
+            <label class="form-label" for="email">Email:</label>
+            <input class="form-input" type="email" id="email" name="email" required>
+
+            <label class="form-label" for="password">Password:</label>
+            <input class="form-input" type="password" id="password" name="password" required>
+            
+            <label class="form-label" for="phone_number">Phone:</label>
+            <input class="form-input" type="number" id="phone_number" name="phone_number" min="1111111111" required>
+            <label class="form-label">Gender:</label>
+            <div class="options">
+            <input type="radio" id="male" name="male" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="female" value="female" required>
+            <label for="female">Female</label>
+            <input type="radio" id="Other" name="Other" value="Other" required>
+            <label for="Other">Other</label>
+            </div>
+            <br>
+            <label class="form-label">Languages Known:</label>
+            <select class="form-select" name="gender" required>
+                <option value="Select Language">Select Language</option>
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+                <option value="French">French</option>
+                <option value="Tamil">Tamil</option>
+            </select>
+
+            <label class="form-label" for="zip_code">Zipcode:</label>
+            <input class="form-input" type="number" id="zip_code" name="zip_code" min="1" required>
+
+            <label class="form-label" for="About">About:</label>
+            <textarea class="form-input" id="About" name="About" rows="4" required></textarea>
+            <button class="save-button" type="submit">Register</button>
+        </form>
+    </div>
+</div>
+
+</body>
+
+</html>
