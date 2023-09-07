@@ -9,3 +9,39 @@ th, td
     border-radius: 10px;
     border:2px solid black;
 }
+.rounded-rectangle {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 5%; 
+    width: 200px;
+    height: 100px;
+    border: 2px;
+    border-radius: 20px;
+    background-color: brown;
+}
+.rectangle{
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.oval{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 18%; 
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: brown;
+}
+.roundedEdge{
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 18%;
+    border-radius: 20px 0 20px 0;
+}
